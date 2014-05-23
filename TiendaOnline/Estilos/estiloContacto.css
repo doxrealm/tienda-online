@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*=============================================================================================================================================================
+	CONTACTO - Afecta a la opción del menú "contacto"
+=============================================================================================================================================================*/
+
+
+/*============================================
+	Estilo de opcion direccion postal
+=============================================*/
+
+#divOpcionContacto1
+{
+	position: relative;
+	
+	height: 470px;
+	width: 1024px;
+
+	text-align: center;
+}
+
+
+#mapaUbicacion
+{
+	width: 400px; 
+	height: 300px;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*============================================
+	Estilo de opcion telefono
+=============================================*/
+
+#divOpcionContacto2
+{
+	position: relative;
+	
+	width: 1024px;
+	height: 130px;
+		
+
+}
+
+
+#pTelContacto
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+#pFaxContacto
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*============================================
+	Estilo de opcion email
+=============================================*/
+
+#divOpcionContacto3
+{
+	position: relative;
+	
+	width: 1024px;
+	height: 120px;
+}
+
+
+#pCorreoContacto
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}
