@@ -1,0 +1,267 @@
+@charset "utf-8";
+/*=============================================================================================================================================================
+	PRODUCTOS - Afecta a la opción del menú "productos"
+=============================================================================================================================================================*/
+
+
+/*=====================================
+	Estilo para div inicial
+======================================*/
+#divInicialProd
+{
+	position: relative;
+	
+	height: 500px;
+	
+	background-image: url(../ImagenesWeb/extrem-dehesa-00042.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+/*=====================================
+	Estilo para div filtrar productos
+======================================*/
+#divFiltrarProd
+{
+	position: relative;
+	
+	display: none;
+
+}
+
+#divOpcionesFiltro
+{
+	height: 50px;
+}
+
+
+.labelFiltrarEmbutido
+{
+	margin: 10px;
+}
+
+
+#buttonBuscar
+{
+	margin: 10px;
+}
+
+
+/*=====================================
+	Estilo para mostrar productos
+=====================================*/
+#divListaProd
+{
+	position: relative;
+	
+	display: none;
+}
+
+
+#divMostrarProd
+{
+	position: relative;
+	
+	text-align: center;
+}
+
+
+.divProducto
+{
+	position: relative;
+	display: inline-block;
+	
+	height: 450px;
+	width: 450px; 
+	
+	margin: 20px;
+	
+	
+	border-color: #000000;
+	border-style: solid;
+	border-width: 5px;
+}
+
+
+
+/*=========================================
+	Estilo para divProducto - titulo
+=========================================*/
+
+.divNombreProducto
+{
+	position: relative;
+	
+	width: 450px;
+	height: 30px;
+
+	background-color: #000000; 
+	color: #FFFFFF;
+	
+	text-align: center;
+
+}
+
+.spanNombreProducto
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*=========================================
+	Estilo para divProducto - imagen
+=========================================*/
+
+.divImagenProducto
+{
+	position: relative;
+	padding: 0px;
+	width: 450px;
+}
+
+
+.imgImagenProducto
+{
+	width: 450px;
+	height: 290px;
+}
+
+
+/*==============================================
+	Estilo para divProducto - descripcion
+==============================================*/
+
+.divDescripcionProducto
+{
+	position: relative;
+
+	width: 450px;
+	height: 100px;
+	padding: 0px;
+	background-color: #FE7C7C;
+	
+	color: #FFFFFF;
+}
+
+
+.pDescripcionProducto
+{
+		
+	margin-left: 3px;
+	margin-right: auto;
+}
+
+
+/*=========================================
+	Estilo para divProducto - precio
+=========================================*/
+
+.divPrecioProducto
+{
+	position: relative;
+	display: inline-block;
+	
+	width: 450px;
+	height: 30px;
+	
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+
+.buttonComprar
+{
+	margin-left: 20px;
+	top: 5px;
+}
+
+
+.spanPrecioProducto
+{
+	top: 5px;
+}
+
+/*=========================================
+	Estilo para divCarrito
+=========================================*/
+
+#divCarrito
+{
+	position: relative;
+	width: 1024px;
+	
+	display: none;
+}
+
+
+#divTablaCarrito
+{
+	position: relative;
+	
+	width: 981.5px;
+	
+	text-align: center;
+	
+	padding: 20px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+#tablaCompra
+{
+	width: auto;
+	
+	margin: 0 auto;
+	
+	text-align: center;
+	
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+tr
+{
+	min-width: 100px;
+	max-width: 280px;
+	
+}
+
+.cabeceraTabla
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	
+}
+
+
+#divCompra
+{
+	position: relative;
+	
+	height: 50px;
+	min-width: 100px;
+	max-width: 280px;
+	
+	margin-top: 0px;
+	
+	border-color: black;
+	border-style: solid;
+	border-width: 1px
+}

@@ -1,0 +1,282 @@
+@charset "utf-8";
+/*=============================================================================================================================================================
+	GENERAL - Afecta a toda la web
+=============================================================================================================================================================*/
+
+
+/* estilo pagina de registro*/ @import url("estiloRegistro.css");
+/* estilo pagina de contacto*/ @import url("estiloContacto.css"); 
+/* estilo pagina de productos*/ @import url("estiloProductos.css");
+/* estilo pagina de perfil*/ @import url("estiloPerfil.css");
+/* estilo pagina de inicio*/ @import url("estiloInicio.css");
+
+
+/*============================================
+	Estilo de los elementos comunes de la web
+=============================================*/
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body
+{
+	background-color: #BCFC68;
+	background-attachment: fixed; 
+}
+
+
+
+#divTotal
+{
+	position: relative;
+	width: 1024px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	
+	background-color: #EAFBF5;
+}
+
+
+
+/*============================================*/
+a
+{
+	text-decoration: none;
+	color: #168132;
+}
+
+a:hover
+{
+	color: #F00456;
+}
+
+
+
+
+/*============================================*/
+.ulclass
+{
+	list-style-type: none;
+}
+
+
+.liclass
+{
+	display: inline;
+	
+}
+
+
+
+/*============================================*/
+.divTitulo
+{
+	background-color: #2629D0;
+	
+	height: 20px;
+	text-align:left;
+	margin: auto;
+	padding: 5px;
+}
+
+
+.spanTitulo
+{
+	margin-left: 5px;
+	text-transform: uppercase;
+	color : #FFFFFF;
+}
+
+
+
+/*====================================
+	Estilo de la cabecera de la web
+====================================*/
+
+#divCabecera
+{
+	position: relative;
+	height: 170px;
+	
+	background-image: url(../ImagenesWeb/Cabecera/cabecera2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+
+#divLogo
+{
+	position: absolute;
+	display: inline-block;
+	height: 170px;
+	width: 220px;
+	float: right;
+	bottom: 0px;
+	left: 0px;
+}
+
+
+#imgLogo
+{
+	height: 170px;
+	width: 220px;
+}
+
+
+/*====================================
+	Estilo de la barra de menu 
+====================================*/
+
+#divMenu
+{
+	position: relative;
+	height: 40px;
+	
+	background-color: #F3F781;
+}
+
+
+.divOpciones
+{
+	position: relative;
+	display: inline-block;
+	left: 10px;
+	
+	text-transform: uppercase;
+	
+	
+	
+
+}
+
+
+.divOpcionMenu
+{
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 30px;
+
+}
+
+
+/*========================================
+	Estilo de la barra de menu  - divLogIn
+=========================================*/
+
+#divLogIn
+{
+	position: relative;
+	display: inline-block;
+	
+	float: right; 
+}
+
+
+.divSesion
+{
+	position: relative;
+	
+	top: 10px;
+	right: 10px;
+}
+
+
+#divNombreSesion
+{
+	position: relative;
+
+	display: none;
+}
+
+
+#divRegistroUser
+{
+	position: absolute;
+	right: 0px;
+	bottom: 26px;
+	display: none;
+	float: left;	
+	width: 300px;
+	height: 182px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FBFBEF;
+		
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+.labelLoginErr
+{
+	font-size: 9px;
+	color: #BE1A1A;
+}
+
+.aLogIn
+{
+	font-size: 9px;
+}
+
+
+#divMenuSesion
+{
+	position: absolute;
+	
+	display: none;
+	
+	right: 0px;
+	bottom: 40px;
+	float: right;
+	
+	width: 120px;
+	height: 80px;
+	
+	padding: 5px;
+	
+	text-align: left;
+	
+	background-color: #FBFBEF;
+		
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+
+/*====================================
+	Estilo de la barra del submenu 
+====================================*/
+
+#divSubMenu
+{
+	position: relative;
+	
+	height: 40px;
+	
+	background-color: #FBBB5A;
+}
+
+
+
+/*====================================
+	Estilo del div contenedor
+====================================*/
+
+#divContenedor
+{
+	position: relative;
+}
+
+
+
